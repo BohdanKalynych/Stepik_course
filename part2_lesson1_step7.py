@@ -2,6 +2,7 @@ import math
 from selenium import webdriver
 import time
 from selenium.webdriver.common.by import By
+#adding some comments for new commit
 
 
 def calc(x):
@@ -30,6 +31,7 @@ try:
 
 finally:
     time.sleep(10)
-    browser.quit()
+
+
 
 
